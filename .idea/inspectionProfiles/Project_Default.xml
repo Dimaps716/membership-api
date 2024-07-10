@@ -1,0 +1,127 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="div" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="44">
+            <item index="0" class="java.lang.String" itemvalue="httpx" />
+            <item index="1" class="java.lang.String" itemvalue="email-validator" />
+            <item index="2" class="java.lang.String" itemvalue="databases" />
+            <item index="3" class="java.lang.String" itemvalue="asgi-lifespan" />
+            <item index="4" class="java.lang.String" itemvalue="pydantic" />
+            <item index="5" class="java.lang.String" itemvalue="alembic" />
+            <item index="6" class="java.lang.String" itemvalue="pytest" />
+            <item index="7" class="java.lang.String" itemvalue="SQLAlchemy" />
+            <item index="8" class="java.lang.String" itemvalue="pytest-asyncio" />
+            <item index="9" class="java.lang.String" itemvalue="fastapi" />
+            <item index="10" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="11" class="java.lang.String" itemvalue="pyjwt" />
+            <item index="12" class="java.lang.String" itemvalue="passlib" />
+            <item index="13" class="java.lang.String" itemvalue="starlette" />
+            <item index="14" class="java.lang.String" itemvalue="pkg-resources" />
+            <item index="15" class="java.lang.String" itemvalue="uvloop" />
+            <item index="16" class="java.lang.String" itemvalue="httptools" />
+            <item index="17" class="java.lang.String" itemvalue="requests" />
+            <item index="18" class="java.lang.String" itemvalue="core" />
+            <item index="19" class="java.lang.String" itemvalue="setuptools" />
+            <item index="20" class="java.lang.String" itemvalue="python-multipart" />
+            <item index="21" class="java.lang.String" itemvalue="python-jose" />
+            <item index="22" class="java.lang.String" itemvalue="bcrypt" />
+            <item index="23" class="java.lang.String" itemvalue="sqlalchemy-json" />
+            <item index="24" class="java.lang.String" itemvalue="google-cloud-bigquery" />
+            <item index="25" class="java.lang.String" itemvalue="cloud-sql-python-connector" />
+            <item index="26" class="java.lang.String" itemvalue="slack_sdk" />
+            <item index="27" class="java.lang.String" itemvalue="missingno" />
+            <item index="28" class="java.lang.String" itemvalue="phone_iso3166" />
+            <item index="29" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="30" class="java.lang.String" itemvalue="google-cloud-storage" />
+            <item index="31" class="java.lang.String" itemvalue="PyMySQL" />
+            <item index="32" class="java.lang.String" itemvalue="pg8000" />
+            <item index="33" class="java.lang.String" itemvalue="pycountry" />
+            <item index="34" class="java.lang.String" itemvalue="PyJWT" />
+            <item index="35" class="java.lang.String" itemvalue="sentry-sdk" />
+            <item index="36" class="java.lang.String" itemvalue="pandas" />
+            <item index="37" class="java.lang.String" itemvalue="requests_mock" />
+            <item index="38" class="java.lang.String" itemvalue="firebase-admin" />
+            <item index="39" class="java.lang.String" itemvalue="google-cloud-pubsub" />
+            <item index="40" class="java.lang.String" itemvalue="numpy" />
+            <item index="41" class="java.lang.String" itemvalue="algoliasearch" />
+            <item index="42" class="java.lang.String" itemvalue="cachetools" />
+            <item index="43" class="java.lang.String" itemvalue="google-auth" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W191" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="app.api.routes.hunty_registration.comerciales_registration.object_crud" />
+          <option value="sqlalchemy.engine.url.*" />
+          <option value="app.api.routes.ctl_user.ctl_available_time.core" />
+          <option value="app.api.routes.ctl_user.ctl_degree_level.core" />
+          <option value="urllib.request" />
+          <option value="core.auth2_token.google_auth_oauthlib" />
+          <option value="core.auth2_token.launch_browser" />
+          <option value="core.auth2_token.jsonDecode" />
+          <option value="schemas.schema_history_all_users.*" />
+          <option value="schemas.history_all_users.HistoricHuntyStatusSchema" />
+          <option value="controllers.users.user_router" />
+          <option value="controllers.users.historic_users_router" />
+          <option value="str.decode" />
+          <option value="starlette.responses.JSONResponse.__await__" />
+          <option value="Exception.status_code" />
+          <option value="test.create_user_altrt_form.test_main.unittest" />
+          <option value="crud.hunty_application.get_all_huntys_objects" />
+          <option value="crud.hunty_application.get_hunty_application_user_id" />
+          <option value="schemas.application.huntys_application.HuntyApplication" />
+          <option value="schemas.application.preview_hunty_application.*" />
+          <option value="utils.connect_realtimedatabase.firebase_admin" />
+          <option value="data.sentry_sdk" />
+          <option value="sentry_sdk" />
+          <option value="object.get" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

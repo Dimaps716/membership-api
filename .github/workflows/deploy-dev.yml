@@ -1,0 +1,69 @@
+name: Membership API Deploy - DEV
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - develop
+
+env:
+  SOLUTION_NAME: hty-hunty-dev-gcr-membership-api
+  PROJECT_ID: serious-conduit-329515
+  IMAGE_NAME: gcr.io/serious-conduit-329515/hty-hunty-dev-gcr-membership-api
+
+jobs:
+  deploy-to-cloud-run:
+    name: Deploy To Cloud Run
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      # Setup Auth for GCP SDK
+      - name: Gcloud SDK Auth config
+        uses: google-github-actions/auth@v0
+        with:
+          credentials_json: ${{ secrets.R2D2_CREDENTIALS }}
+
+      # Cloud SDK CLI setup
+      - name: Setup Google Cloud SDK
+        uses: google-github-actions/setup-gcloud@v0
+
+      # Configure Docker with gcloud
+      - name: Configure Docker
+        run: gcloud auth configure-docker
+
+      # Build the docker image via CloudBuild
+      - name: Build Container
+        run: |
+          gcloud config set project ${{ env.PROJECT_ID }}
+          gcloud config set run/region us-east1
+          gcloud builds submit --tag ${{ env.IMAGE_NAME }}
+      # Deploy to Cloud Run
+      - name: Deploy
+        run: |
+          gcloud run deploy ${{ env.SOLUTION_NAME }} \
+            --image ${{ env.IMAGE_NAME }} \
+            --region us-east1 \
+            --platform managed \
+            --service-account=gcr-membership-api@serious-conduit-329515.iam.gserviceaccount.com \
+            --add-cloudsql-instances serious-conduit-329515:us-east1:hty-hunty-dev-sql-user \
+            --set-env-vars "MACHINE=GCP, \
+                          SCOPE=Trely_develop, \
+                          TRELI_URL_BASE=https://treli.co/wp-json/api/, \
+                          URL_BASE_THINKIFIC=https://api.thinkific.com/api/public/v1, \
+                          HUBSPOT_URL=https://api.hubapi.com/contacts/v1/, \
+                          HUBSPOT_URL_V3=https://api.hubapi.com/crm/v3/, \
+                          BASE_URL=https://api-dev.hunty.cloud/, \
+                          ALLOW_ORIGINS=['*'], \
+                          ALLOW_CREDENTIALS=True, \
+                          ALLOW_METHODS=['*'], \
+                          ALLOW_HEADERS=['*'], \
+                          DB_CONNECTION_NAME=serious-conduit-329515:us-east1:hty-hunty-dev-sql-user, \
+                          DB_NAME=hunty_users" \
+            --set-secrets "TRELI_API_KEY=hty-hunty-treli-api-key-secret:latest, \
+                          USERS_RAW_URL=hty-user-api-secret-audience-url:latest, \
+                          HUBSPOT_ACCESS_TOKEN=hty-hubspot-secret-token:latest, \
+                          DB_USER_USERNAME=hty-user-api-secret-dbuser:latest, \
+                          DB_USER_PASS=hty-user-api-secret-dbpass:latest, \
+                          API_KEY_THINKIFIC=hty-crm-api-thinkific-api-key:latest" \

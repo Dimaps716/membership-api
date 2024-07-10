@@ -1,0 +1,56 @@
+name: SonarQube
+on:
+  workflow_dispatch:
+  
+  pull_request:
+    types: [opened, synchronize, reopened]
+  
+env:
+  SERVICE:
+  REGION: us-east1
+
+jobs:
+  sonarqube:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        # Disabling shallow clone is recommended for improving relevancy of reporting
+        fetch-depth: 0
+      # Triggering SonarQube analysis as results of it are required by Quality Gate check
+      #https://coverage.readthedocs.io/en/stable/
+    - name: SonarQube Scan
+      uses: sonarsource/sonarqube-scan-action@master
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        SONAR_HOST_URL: https://sonarqube.hunty.com/
+        LC_ALL: "en_US.UTF-8"
+      with:
+        projectBaseDir: .
+        args: >
+            -Dsonar.projectKey=be-membership-api
+            -Dsonar.projectName=Membership_API
+            -Dsonar.organization=HuntyJobs
+            -Dsonar.projectVersion=1.0.0
+            -Dsonar.python.version=3.7,3.8,3.9
+            -Dsonar.sources=src/
+            -Dsonar.verbose=true
+            -Dsonar.qualitygate.wait=true
+          
+        # -Dsonar.tests=test/
+        # -Dsonar.python.coverage.reportPaths=coverage.xml
+        # -Dsonar.exclusions=app/test/
+        # -Dsonar.test.exclusions=tests/**
+    
+    - shell: bash
+      run: |
+        tree -a $(pwd)
+        
+    - name: SonarQube Quality Gate check
+      uses: sonarsource/sonarqube-quality-gate-action@master
+      # Force to fail step after specific time
+      timeout-minutes: 5
+      env:
+       SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      with:
+        scanMetadataReportFile: .scannerwork/report-task.txt

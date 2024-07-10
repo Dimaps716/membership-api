@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18ea69b1-45e5-48be-8f34-95216eec2ff3" name="Changes" comment="feature/validate_product_name">
+      <change beforePath="$PROJECT_DIR$/src/utils/list_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/list_product.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="release/active_hunty_pro" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1706112515" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="release/active_hunty_pro" />
+                    <option name="lastUsedInstant" value="1699559289" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/active_huntypro" />
+                    <option name="lastUsedInstant" value="1699537212" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/validate_product_name" />
+                    <option name="lastUsedInstant" value="1699366616" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1699364771" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/clients/thinkific.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/controllers/webhooks.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2StooUB516vTb5ZneRHCciE3QCl" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "main",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "/Users/necsoft/Documents/Hunty/be-membership-api/src/clients",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.editor"
+  }
+}]]></component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/clients" />
+      <recent name="$PROJECT_DIR$/src/models/users" />
+      <recent name="$PROJECT_DIR$/src/utils" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/models/payment" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="api_user_master" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="be-membership-api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/clients" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/clients/api_user_master.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="be-membership-api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/Venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="process_payment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="be-membership-api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/services" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/services/process_payment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_cards.test_get_tokens_endpoint_invalid_email" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="be-membership-api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/test_controllers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cards.test_get_tokens_endpoint_invalid_email&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_cards.test_get_tokens_endpoint_missing_parameters" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="be-membership-api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/test_controllers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cards.test_get_tokens_endpoint_missing_parameters&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_cards.test_get_tokens_endpoint_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="be-membership-api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/test_controllers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_cards.test_get_tokens_endpoint_success&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_cards.test_get_tokens_endpoint_success" />
+        <item itemvalue="Python tests.Python tests for test_cards.test_get_tokens_endpoint_missing_parameters" />
+        <item itemvalue="Python tests.Python tests for test_cards.test_get_tokens_endpoint_invalid_email" />
+        <item itemvalue="Python.process_payment" />
+        <item itemvalue="Python.api_user_master" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18ea69b1-45e5-48be-8f34-95216eec2ff3" name="Changes" comment="" />
+      <created>1689975413130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689975413130</updated>
+    </task>
+    <task id="LOCAL-00066" summary="update schema">
+      <created>1691082256374</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1691082256375</updated>
+    </task>
+    <task id="LOCAL-00067" summary="update schema">
+      <created>1691082261725</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1691082261725</updated>
+    </task>
+    <task id="LOCAL-00068" summary="update model">
+      <created>1691082278746</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1691082278746</updated>
+    </task>
+    <task id="LOCAL-00069" summary="update modles">
+      <created>1691082293526</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1691082293526</updated>
+    </task>
+    <task id="LOCAL-00070" summary="update name">
+      <created>1691082831822</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1691082831822</updated>
+    </task>
+    <task id="LOCAL-00071" summary="docs">
+      <created>1691091374735</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1691091374735</updated>
+    </task>
+    <task id="LOCAL-00072" summary="BASE_URL, USERS_RAW_URL">
+      <created>1691092956220</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1691092956220</updated>
+    </task>
+    <task id="LOCAL-00073" summary="update status">
+      <created>1691097405722</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1691097405722</updated>
+    </task>
+    <task id="LOCAL-00074" summary="update status">
+      <created>1691097528926</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1691097528926</updated>
+    </task>
+    <task id="LOCAL-00075" summary="get user">
+      <created>1691099697331</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1691099697331</updated>
+    </task>
+    <task id="LOCAL-00076" summary="THINKIFIC">
+      <created>1691102337100</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1691102337100</updated>
+    </task>
+    <task id="LOCAL-00077" summary="profile">
+      <created>1691155212998</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1691155212998</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Crea o actualiza un usuario basado en la información del pago.">
+      <created>1691156302693</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1691156302694</updated>
+    </task>
+    <task id="LOCAL-00079" summary="update status">
+      <created>1691156322277</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1691156322277</updated>
+    </task>
+    <task id="LOCAL-00080" summary="update status">
+      <created>1691156329833</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1691156329833</updated>
+    </task>
+    <task id="LOCAL-00081" summary="update THINKIFIC">
+      <created>1691156343713</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1691156343713</updated>
+    </task>
+    <task id="LOCAL-00082" summary="update">
+      <created>1691156497567</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1691156497567</updated>
+    </task>
+    <task id="LOCAL-00083" summary="now list the courses">
+      <created>1691159434081</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1691159434081</updated>
+    </task>
+    <task id="LOCAL-00084" summary="scope">
+      <created>1691510441954</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1691510441954</updated>
+    </task>
+    <task id="LOCAL-00085" summary="hunty pro">
+      <created>1691510477908</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1691510477908</updated>
+    </task>
+    <task id="LOCAL-00086" summary="get profile">
+      <created>1691510576033</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1691510576033</updated>
+    </task>
+    <task id="LOCAL-00087" summary="process_subscription">
+      <created>1691510849934</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1691510849934</updated>
+    </task>
+    <task id="LOCAL-00088" summary="show_hubspot_banner, show_banner">
+      <created>1691522959734</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1691522959734</updated>
+    </task>
+    <task id="LOCAL-00089" summary="show_hubspot_banner, show_banner">
+      <created>1691524520306</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1691524520306</updated>
+    </task>
+    <task id="LOCAL-00090" summary="show_hubspot_banner, show_banner">
+      <created>1691530890113</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1691530890113</updated>
+    </task>
+    <task id="LOCAL-00091" summary="active_subscription">
+      <created>1691539725019</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1691539725019</updated>
+    </task>
+    <task id="LOCAL-00092" summary="active_subscription">
+      <created>1691540433288</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1691540433288</updated>
+    </task>
+    <task id="LOCAL-00093" summary="firebese_sdk.json">
+      <created>1691592112636</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1691592112637</updated>
+    </task>
+    <task id="LOCAL-00094" summary="firebese_sdk.json">
+      <created>1691592131330</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1691592131331</updated>
+    </task>
+    <task id="LOCAL-00095" summary="update">
+      <created>1691592176601</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1691592176601</updated>
+    </task>
+    <task id="LOCAL-00096" summary="update">
+      <created>1691592203559</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1691592203559</updated>
+    </task>
+    <task id="LOCAL-00097" summary=" Decorador para manejar excepciones de solicitud y registrar errores.">
+      <created>1691596725858</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1691596725858</updated>
+    </task>
+    <task id="LOCAL-00098" summary="update TRELI_API_KEY">
+      <created>1691596753183</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1691596753183</updated>
+    </task>
+    <task id="LOCAL-00099" summary="update TRELI_API_KEY">
+      <created>1691596760569</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1691596760569</updated>
+    </task>
+    <task id="LOCAL-00100" summary="update docs">
+      <created>1691596817919</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1691596817919</updated>
+    </task>
+    <task id="LOCAL-00101" summary="update subscription_cancelled">
+      <created>1691597658468</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1691597658468</updated>
+    </task>
+    <task id="LOCAL-00102" summary="update yml">
+      <created>1691679322669</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1691679322669</updated>
+    </task>
+    <task id="LOCAL-00103" summary="update yml">
+      <created>1691679584399</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1691679584399</updated>
+    </task>
+    <task id="LOCAL-00104" summary="gitignore">
+      <created>1692204235578</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1692204235579</updated>
+    </task>
+    <task id="LOCAL-00105" summary="black">
+      <created>1692204305306</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1692204305306</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Crea un usuario y lo inscribe en cursos.">
+      <created>1692205205022</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1692205205022</updated>
+    </task>
+    <task id="LOCAL-00107" summary="update subscription_name">
+      <created>1692282367149</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1692282367149</updated>
+    </task>
+    <task id="LOCAL-00108" summary="create historico de status">
+      <created>1692370640585</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1692370640585</updated>
+    </task>
+    <task id="LOCAL-00109" summary="update name courses">
+      <created>1693840349509</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1693840349509</updated>
+    </task>
+    <task id="LOCAL-00110" summary="update name courses">
+      <created>1693840363099</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1693840363099</updated>
+    </task>
+    <task id="LOCAL-00111" summary="update name courses">
+      <created>1693840451900</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1693840451900</updated>
+    </task>
+    <task id="LOCAL-00112" summary="update courses">
+      <created>1695744333699</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1695744333699</updated>
+    </task>
+    <task id="LOCAL-00113" summary="merge stage">
+      <created>1695745505789</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1695745505789</updated>
+    </task>
+    <task id="LOCAL-00114" summary="update subscription">
+      <created>1696440120722</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1696440120723</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Dockerfile" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="now list the courses" />
+    <MESSAGE value="scope" />
+    <MESSAGE value="hunty pro" />
+    <MESSAGE value="get profile" />
+    <MESSAGE value="process_subscription" />
+    <MESSAGE value="show_hubspot_banner, show_banner" />
+    <MESSAGE value="active_subscription" />
+    <MESSAGE value="firebese_sdk.json" />
+    <MESSAGE value="update" />
+    <MESSAGE value=" Decorador para manejar excepciones de solicitud y registrar errores." />
+    <MESSAGE value="update TRELI_API_KEY" />
+    <MESSAGE value="update docs" />
+    <MESSAGE value="update subscription_cancelled" />
+    <MESSAGE value="update yml" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="black" />
+    <MESSAGE value="Crea un usuario y lo inscribe en cursos." />
+    <MESSAGE value="update subscription_name" />
+    <MESSAGE value="create historico de status" />
+    <MESSAGE value="update name courses" />
+    <MESSAGE value="update courses" />
+    <MESSAGE value="merge stage" />
+    <MESSAGE value="update subscription" />
+    <MESSAGE value="update date next_payment_date" />
+    <MESSAGE value="feature/validate_product_name" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature/validate_product_name" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/clients/treli/suscripción.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/test/test_controllers/test_cards.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/test/test_controllers/test_cards.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/test/test_controllers/test_cards.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/test/test_controllers/test_cards.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/test/test_controllers/test_cards.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/controllers/pyments.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/controllers/users_subscriptions.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/clients/hubspot.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/clients/thinkific.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/clients/thinkific.py</url>
+          <line>202</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/services/process_subscription.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/services/process_subscription.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/services/process_subscription.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/services/process_subscription.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

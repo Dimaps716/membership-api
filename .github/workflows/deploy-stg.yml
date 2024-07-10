@@ -1,0 +1,71 @@
+name: Membership API Deploy - STG
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - stage
+
+env:
+  SERVICE: hty-hunty-stg-gcr-membership-api
+  REGION: us-east1
+  GCR_SA: gcr.io/pacific-shelter-345513/hty-hunty-stg-gcr-membership-api
+
+jobs:
+  deploy-to-cloud-run:
+    name: STG Deployment
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      # Setup Auth for GCP SDK
+      - name: "Auth GCP"
+        uses: "google-github-actions/auth@v0"
+        with:
+          credentials_json: ${{ secrets.GCP_SA_STG_KEY_345513 }}
+
+      # Cloud SDK CLI setup
+      - name: Setup Google Cloud SDK
+        uses: google-github-actions/setup-gcloud@v0
+
+      # Configure Docker with gcloud
+      - name: Configure Docker
+        run: |
+          gcloud auth configure-docker
+
+      # Build the docker image via CloudBuild
+      - name: Build & Push Image
+        run: |
+          gcloud config set project ${{ secrets.GCP_STG_PROJECT }}
+          gcloud config set run/region ${{ env.REGION }}
+          gcloud builds submit --tag gcr.io/${{ secrets.GCP_STG_PROJECT }}/${{ env.SERVICE }}:latest
+
+      # Deploy to Cloud Run
+      - name: Deploy
+        run: |
+          gcloud run deploy ${{ env.SERVICE }} \
+            --image gcr.io/${{ secrets.GCP_STG_PROJECT }}/${{ env.SERVICE }} \
+            --region us-east1 \
+            --platform managed \
+            --service-account=gcr-membership-api@pacific-shelter-345513.iam.gserviceaccount.com \
+            --add-cloudsql-instances "pacific-shelter-345513:us-east1:hty-hunty-stg-sql-user" \
+            --set-env-vars "MACHINE=GCP, \
+                            SCOPE=Trely_stage, \
+                            TRELI_URL_BASE=https://treli.co/wp-json/api/, \
+                            URL_BASE_THINKIFIC=https://api.thinkific.com/api/public/v1, \
+                            HUBSPOT_URL=https://api.hubapi.com/contacts/v1/, \
+                            HUBSPOT_URL_V3=https://api.hubapi.com/crm/v3/, \
+                            BASE_URL=https://api-stg.hunty.cloud/, \
+                            ALLOW_ORIGINS=["*"], \
+                            ALLOW_CREDENTIALS=True, \
+                            ALLOW_METHODS=["*"], \
+                            ALLOW_HEADERS=["*"], \
+                            DB_CONNECTION_NAME=pacific-shelter-345513:us-east1:hty-hunty-stg-sql-user, \
+                            DB_NAME=hunty_users" \
+              --set-secrets "TRELI_API_KEY=hty-hunty-treli-api-key-secret:latest, \
+                            USERS_RAW_URL=hty-user-api-secret-audience-url:latest, \
+                            DB_USER_USERNAME=hty-user-api-secret-dbuser:latest, \
+                            HUBSPOT_ACCESS_TOKEN=hty-hubspot-secret-token:latest, \
+                            DB_USER_PASS=hty-user-api-secret-dbpass:latest, \
+                            API_KEY_THINKIFIC=hty-crm-api-thinkific-api-key:latest" \
